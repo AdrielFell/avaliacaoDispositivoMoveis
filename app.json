@@ -1,4 +1,9 @@
 {
   "name": "appFilmes",
-  "slug": "appFilmes"
+  "slug": "appFilmes",
+  "scheme": "appFilmes",
+  "plugins": [
+    "expo-sqlite",
+    "expo-router"
+  ]
 }
