@@ -59,16 +59,6 @@ export default function Telafilmes() {
             return;
         }
 
-        if (!cat) {
-            Alert.alert("Erro", "Genero não pode estar vazio.");
-            return;
-        }
-
-        if (isNaN(an) || an < 0 ) {
-            Alert.alert("Erro", "Ano não pode estar vazio.");
-            return;
-        }
-
         if (!id) {
             insertFilme(tit, cat, an);
 

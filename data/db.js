@@ -8,7 +8,7 @@ export function initDb() {
     CREATE TABLE IF NOT EXISTS filmes (
     id INTEGER PRIMARY KEY AUTOINCREMENT, 
     titulo  TEXT NOT NULL, 
-    genero TEXT NOT NULL, 
-    ano INT NOT NULL);
+    genero TEXT, 
+    ano INT);
 `);
 }
