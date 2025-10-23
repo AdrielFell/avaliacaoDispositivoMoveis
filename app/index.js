@@ -7,6 +7,9 @@ export default function Home() {
         <Link href="/crudFilmes" asChild>
           <Button title="Ir para Meus-Filmes"/>
         </Link>
+        <Link href="/consumoAPI" asChild>
+          <Button title="Ir para Consumindo APIs"/>
+        </Link>
       </View>
       
     );
